@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 .main{
@@ -8,6 +9,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 form{
     display: flex;
@@ -21,5 +23,18 @@ fieldset{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
+}
+
+fieldset > label{
+    display: flex;
+    margin-left:80px;
+}
+
+fieldset > p {
+    margin-bottom: 10px;
+}
+
+fieldset > label > input {
+    margin-right: 5px;
 }
