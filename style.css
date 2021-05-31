@@ -12,6 +12,7 @@
 
 
 form{
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,4 +38,20 @@ fieldset > p {
 
 fieldset > label > input {
     margin-right: 5px;
+}
+
+.input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+.submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #37af65;
+    border-radius: 2px;
+    cursor: pointer;
 }
