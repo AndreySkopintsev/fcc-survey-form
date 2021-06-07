@@ -28,6 +28,11 @@ form{
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    border-radius: 5px;
+}
+
+select{
+    height: 44px;
 }
 
 .personal-info{
@@ -55,9 +60,19 @@ form{
     flex-direction: column;
     align-items: flex-start;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .recommend-selection > p{
+    margin-bottom: 5px;
+}
+
+.favourite{
+    margin-top: 30px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 18px;
 }
 
