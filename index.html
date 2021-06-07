@@ -12,21 +12,29 @@
         <h1 id="title">freeCodeCamp</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <form action="" id="survey-form">
-            <label for="name" id="name-label">Name:</label>
-            <input type="text" placeholder="Enter your name">
-            <label for="email" id="email-label">Email:</label>
-            <input type="email" placeholder="Enter your Email">
-            <label for="age" id="age-label">Age(optional):</label>
-            <input type="number" min="10" max="99" placeholder="Age">
-            <label for="role" id="role-label">Which option best describes your current role?</label>
-            <select name="role" id="dropdown">
-                <option value="" disabled selected>Select current role</option>
-                <option value="student">Student</option>
-                <option value="job">Full time job</option>
-                <option value="learner">Full time learner</option>
-                <option value="no">Prefer not to say</option>
-                <option value="other">Other</option>
-            </select>
+            <div class="personal-info">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="personal-info">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <div class="personal-info">
+                <label for="age" id="age-label">Age(optional):</label>
+                <input type="number" min="10" max="99" placeholder="Age">
+            </div>
+            <div class="personal-info">
+                <label for="role" id="role-label">Which option best describes your current role?</label>
+                <select name="role" id="dropdown">
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full time job</option>
+                    <option value="learner">Full time learner</option>
+                    <option value="no">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
             <div class="recommend-selection">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <div class="radio-button">
