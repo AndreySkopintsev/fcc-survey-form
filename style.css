@@ -12,12 +12,43 @@
 
 
 form{
+    width: 500px;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+}
+
+.personal-info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.personal-info > label {
+    margin:15px 0 5px 0;
+}
+
+.personal-info > input {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.recommend-selection{
+    margin-top: 20px;
+}
+
+#dropdown{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+    font-size: 16px;
 }
 
 fieldset{
