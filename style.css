@@ -50,7 +50,15 @@ form{
 }
 
 .recommend-selection{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 20px;
+}
+
+.recommend-selection > p{
+    font-size: 18px;
 }
 
 #dropdown{
